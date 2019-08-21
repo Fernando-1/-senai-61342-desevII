@@ -1,0 +1,12 @@
+nums = []
+
+for x in range(30):
+    nums.append(x)
+    
+for e in nums:
+    r=str(e)
+    if r.endswith("3") :
+        nums[e]="tem 3"
+        
+        
+    print(nums[e])
